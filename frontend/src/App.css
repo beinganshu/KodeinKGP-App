@@ -1,0 +1,74 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size:cover;
+  border : #282c34 5px;
+  border-radius: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App{
+  text-align: center;
+  margin: 5px;
+  border: gold 5px solid;
+  border-radius: 45px;
+  padding: 10px;
+}
+
+.quote{
+  font-size: 40px;
+  font-style: italic;
+}
+.heading{
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(94, 234, 91);
+}
+.qu{
+  border: gold 5px solid;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.a{
+  font-size: 20px;
+}
+.author{
+  font-size: 30px;
+  color: aqua;
+}
+
+.button:hover{
+  background-color: blue;
+  color: antiquewhite;
+}
+
